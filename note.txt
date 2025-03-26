@@ -1,4 +1,4 @@
-Dan le terminal :
+Dans le terminal si il n'existe pas:
 
 python -m venv venv
 
