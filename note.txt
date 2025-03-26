@@ -1,0 +1,6 @@
+Dan le terminal :
+
+python -m venv venv
+
+venv/scripts/activate
+
