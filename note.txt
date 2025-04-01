@@ -4,3 +4,26 @@ python -m venv venv
 
 venv/scripts/activate
 
+pip install django
+cd firstproject
+python manage.py runserver
+
+
+
+http:
+
+--> route
+--> action
+--> template
+
+
+formulaire :
+    -
+    -
+
+-> Supprimer le repertoire venv
+-> python -m venv venv    #active l'interface environnement
+-> .\venv\Scripts\activate
+-> pip install django    #installe Django
+-> cd .\firstproject\    #Rentre dans le répertoire où se trouve le fichier "manage"
+-> python .\manage.py runserver      #lance le server "manage"
