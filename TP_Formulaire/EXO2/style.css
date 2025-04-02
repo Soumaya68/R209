@@ -1,0 +1,11 @@
+.item_pizza, .item_fruit {
+    display: block;
+    margin: 5px 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+input[type="submit"]{
+}
