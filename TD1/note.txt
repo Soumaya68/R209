@@ -17,21 +17,15 @@ http:
 --> template
 
 
-formulaire :
-    -
-    -
+Commandes :
 
 -> Supprimer le repertoire venv
 -> python -m venv venv    #active l'interface environnement
 -> .\venv\Scripts\activate
 -> pip install django    #installe Django
 
-
-
-
 -> cd .\firstproject\    #Rentre dans le répertoire où se trouve le fichier "manage"
 -> python .\manage.py runserver      #lance le server "manage"
-
 
 TP1 :
 -> django-admin startproject Mon_projet
