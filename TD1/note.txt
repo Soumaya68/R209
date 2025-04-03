@@ -34,6 +34,6 @@ formulaire :
 
 
 TP1 :
-django-admin startproject Mon_projet
-cd .\Mon_projet\
-python manage.py startapp meslivres
+-> django-admin startproject Mon_projet
+-> cd .\Mon_projet\
+-> python manage.py startapp meslivres
