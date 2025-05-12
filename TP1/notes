@@ -1,0 +1,45 @@
+--> python -m venv venv
+--> venv/scripts/activate
+--> pip install django
+--> django-admin startproject g
+--> cd
+
+--> python manage.py startapp <application>v      # création d'une application
+ajouter dans projetg/settings.py l'application 'applicationv',
+
+dans le dossier <application>v/models.py : coder
+
+--> python manage.py makemigrations
+--> python manage.py migrate
+
+
+dans le dossier <projet>g/urls.py :
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('applicationv.urls')),
+]
+
+Créer dans le dossier <application>/urls.py : coder
+
+Dans application/views.py : coder
+
+Créer dans le dossier <application>/forms.py :
+from django import forms
+from .models import Voiture
+
+class VoitureForm(forms.ModelForm):
+    class Meta:
+        model = Voiture
+        fields = '__all__'
+
+
+-->
+-->
+-->
+-->
+-->
+-->
+-->
